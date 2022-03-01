@@ -1,0 +1,37 @@
+/* Import the Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body{
+    font-family: 'Redressed', cursive;
+}
+
+#showcase {
+    /* SHORTHAND FOR background Image = BGI */
+    background-image: url(Images2/header.jpg);
+    height: 95vh;
+    /* bgs - shorthand */
+    background-size: cover;
+    /* bgp - shorthand */
+    background-position: center;
+}
+
+/* Media Queries */
+@media (min-width:992px){
+    .card-text{
+        height: 110px;
+    }
+}
+
+ @media (min-width:1200px){
+    .card-text{
+        height: 90px;
+    }
+}
+
+@media (min-width:1400px){
+    .card-text{
+        height: 70px;
+    }
+}
+
+
